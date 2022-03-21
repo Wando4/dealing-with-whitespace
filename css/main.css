@@ -26,7 +26,6 @@ header :not(h1) {
 
 h1 {
   padding-bottom: none;
-  margin-bottom: none;
 }
 
 blockquote {
