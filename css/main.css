@@ -15,7 +15,7 @@ html {
 }
 
 header {
-  padding-top: none;
+  padding-top: 0px;
   padding-bottom: 20px;
   border-bottom: 1px inset;
   border-color: #222;
@@ -27,12 +27,12 @@ header :not(h1) {
 
 h1 {
   font-size: 1.5rem;
-  padding-bottom: none;
+  padding-bottom: 0px;
   font-weight: bold;
 }
 
   p {
-    padding: none;
+    padding: 0px;
   }
 
 blockquote {
@@ -42,3 +42,4 @@ blockquote {
 article {
   border-bottom: 1px inset;
   border-color: #222;
+}
