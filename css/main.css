@@ -19,7 +19,6 @@ article {
 
 article p {
   font-size: 1rem;
-  padding-top: 2px;
 }
 
 article header {
@@ -39,9 +38,8 @@ article header p {
 }
 
 article h1 {
-  font-weight: normal;
+  font-weight: bold;
   font-size: 1.5rem;
-  color: #222;
 }
 
 body {
@@ -53,16 +51,10 @@ body {
 
 blockquote {
   color: #555;
-  font-family: italic;
-  font-size: 1.125rem;
 }
 
 article ol {
   font-size: 1.1rem;
-  padding-left: 1rem;
-  padding-top: .8rem;
-  color: #222;
-  text-align: left;
 }
 
 .quote {
