@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+  font-family: "Crimson Text", serif;
+  font-size: 1.125rem;
+  border: 2px;
+  margin: 1.5rem 13rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #222;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  line-height: 1.3;
+  padding-left: 1rem;
+  max-width: 19rem;
+  max-height: 19rem;
+}
+
+article {
+  border-bottom: 2px solid #999;
+  padding-bottom: 5px;
+}
+
+article p {
+  font-size: 1rem;
+  padding-top: 2px;
+}
+
+article header {
+  margin-top: 2.2rem;
+  line-height: .3;
+}
+
+article header p {
+  border-bottom: 2px solid #999;
+  padding-bottom: 30px;
+  font-style: italic;
+  font-size: 1em;
+  color: #222;
+  line-height: .2em;
+}
+
+article h1 {
+  font-weight: normal;
+  font-size: 1.5rem;
+  color: #222;
+}
+
+h1 + p {
+  line-height: 0;
+}
+
+blockquote {
+  color: #555;
+  font-family: italic;
+  font-size: 1.125rem;
+}
+
+article ol {
+  font-size: 1.1rem;
+  padding-left: 1rem;
+  padding-top: .8rem;
+  color: #222;
+  text-align: left;
+}
+
+.quote {
+  color: #999;
+  font-size: 1em;
+}
