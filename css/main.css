@@ -2,7 +2,8 @@ html {
   box-sizing: border-box;
   font-family: "Crimson Text", serif;
   font-size: 1.125rem;
-  line-height: 1.3;
+  border: 2px;
+  margin: 1,5rem 13rem;
   padding-left: 1rem;
   padding-right: 1rem;
   color: #222;
@@ -12,28 +13,35 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+  line-height: 1.3;
+  padding-left: 1rem;
+  max-width: 19rem;
+  max-height: 19rem;
+}
+
 article {
-  font-size: 1rem;
-  line-height: 1;
+  border-bottom: 2px solid #999;
+  padding-bottom: 5px,
 }
 
 article p {
   font-size: 1rem;
+  padding-top: 2px;
 }
 
 article header {
-  color: #222;
-  font-style: italic;
-  border-bottom: solid 1px;
-  border-color: #555;
   margin-top: 2.2rem;
-  padding-bottom: 10px;
-  line-height: .1em;
+  line-height: .3;
 }
 
 article header p {
+  border-bottom: 2px solid #999;
+  padding-bottom: 30px;
   font-style: italic;
   font-size: 1em;
+  color: #222;
   line-height: .2em;
 }
 
@@ -43,22 +51,22 @@ article h1 {
   color: #222;
 }
 
-body {
-  padding-top: 5rem;
-  margin: 0;
-  border-bottom: solid 1px;
-  border-color: #999;
+h1 + p {
+  line-height: 0;
 }
 
 blockquote {
   color: #555;
-  font-weight: normal;
+  font-family: italic;
+  font-size: 1.125rem;
 }
 
 article ol {
   font-size: 1.1rem;
   padding-left: 1rem;
   padding-top: .8rem;
+  color: #222;
+  text-align: left;
 }
 
 .quote {
